@@ -1,10 +1,21 @@
 # TeXのインストールについて
 卒論で使うであろうTeXのインストールなどの説明を書いていきます。
 Macは頑張れ
+まずTeXはプログラミング言語の一種と考えてもらったほうがいいと思います
+だから環境構築が必要ナンデス
 ## 手順
 - 1．installer
-これ↓基本ウィザードに従ってハイハイ押してくとよいです  
-https://sourceforge.net/projects/texworks.mirror/files/latest/download
+これ↓有志の方が作ってくださっているらしいです
+https://www.ms.u-tokyo.ac.jp/~abenori/soft/bin/abtexinst_0_91.zip  
+- 2 ウィザード起動
+ダウンロードした後にそれを解答し実行します  
+基本的に「次へ」を押していけば大丈夫です  
+参考サイト
+http://acetaminophen.hatenablog.com/entry/2015/05/16/142557
+インストールに2時間以上かかる場合がデフォです
+卒論提出直前にインストール作業を始めるというバカなことをするのはやめよう
+~~これまで環境構築さんざんやってきたからわかるよね？~~
+
 ## 書き方
 参考に私のサンプルのコードを貼っておきます
 
@@ -38,8 +49,6 @@ https://sourceforge.net/projects/texworks.mirror/files/latest/download
 >\setlength{\footskip}{25truemm}  
 >\setlength{\textwidth}{15truecm}  
 >\setlength{\textheight}{22truecm}
->\renewcommand{\thefootnote}{\fnsymbol{footnote}}  
->\renewcommand{\bibname}{参考文献}  
 >\makeatletter  
 >\makeatother  
 
@@ -47,12 +56,12 @@ https://sourceforge.net/projects/texworks.mirror/files/latest/download
 
 >\begin{document}  
 >\title{〇〇の△△のための\\××の□\\  
->Sophistication of Colloquial Writing Check Database for Academic Report Writing}  
+>install}  
 >\author{指導教員：aaaaaaa\\  
 >bbbb大学 bbbb部\\  
 >ccccc学科　dddddd研究室\\  
 >ffff年度\\  
->ggggg 長谷川 哲生}  
+>ggggg 永谷園 手馳尾}  
 >\date{\today}  
 
 todayで勝手に印刷のひづけになってくれる  
@@ -73,8 +82,10 @@ todayで勝手に印刷のひづけになってくれる
 
 >\end{document}  
 
-終わり  
+表紙の部分終わり  
+
+次は中身についてを書いていこうと思う
 
 ## 最後
-
+書き始めはエラーが頻出すると思いますが前年度書いてきた先輩方がいるので頼りましょう
 わからなかったら聞いてください
