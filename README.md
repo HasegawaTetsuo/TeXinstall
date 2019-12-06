@@ -7,6 +7,7 @@
 - 1．installer  
 これ↓有志の方が作ってくださっているらしいです  
 https://www.ms.u-tokyo.ac.jp/~abenori/soft/bin/abtexinst_0_91.zip  
+
 - 2 ウィザード起動
 ダウンロードした後にそれを解答し実行します  
 基本的に「次へ」を押していけば大丈夫です  
@@ -14,11 +15,11 @@ https://www.ms.u-tokyo.ac.jp/~abenori/soft/bin/abtexinst_0_91.zip
 http://acetaminophen.hatenablog.com/entry/2015/05/16/142557  
 インストールに2時間以上かかる場合がデフォです  
 卒論提出直前にインストール作業を始めるというバカなことをするのはやめよう  
-~~これまで環境構築さんざんやってきたからわかるよね？~~  
+~~これまで環境構築さんざんやってきたからわかるよね？~~
+
 - 3 導入後
 導入後起動方法などがわかりにくいと思います  
-前の手順でインストールした場合下記の部分にTeXworks.exeくんがいると思います
->C:\w32tex\share\texworks  
+前の手順でインストールした場合>C:\w32tex\share\texworksの部分にTeXworks.exeくんがいると思います  
 私の場合は基本その子を使って作業してました  
 起動するとメモ帳みたいなものが立ち上がると思います  
 そこにこのリポジトリの中にあるtest.texの中身をコピペ  
