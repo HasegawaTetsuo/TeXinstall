@@ -42,3 +42,5 @@ http://shirts-custom.com/hamburg-shisyou-neta-1922
 ```
 ```section```の一つ小さいものに```subsection```がある  
 また更に小さいもので```subsubsection```もある使い分けよう  
+
+基本ページまとめについてを***base.tex***に書いておくので試してみてほしい
