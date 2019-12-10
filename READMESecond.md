@@ -43,4 +43,22 @@ http://shirts-custom.com/hamburg-shisyou-neta-1922
 ```section```の一つ小さいものに```subsection```がある  
 また更に小さいもので```subsubsection```もある使い分けよう  
 
-基本ページまとめについてを***base.tex***に書いておくので試してみてほしい
+基本ページまとめについてを***base.tex***に書いておくので試してみてほしい   
+試す場合は***text.tex***の一番下の部分で
+```TeX
+~~~~~~~~~~~~~~~~~~
+\maketitle
+\pagenumbering{roman}
+\tableofcontents
+\end{document}
+```
+この部分に```\input{base.tex}```を足して
+```TeX
+~~~~~~~~~~~~~~~~~~
+\maketitle
+\pagenumbering{roman}
+\tableofcontents
+\input{base.tex}
+\end{document}
+```
+このようにしてから***test.tex***を実行してみてほしい
