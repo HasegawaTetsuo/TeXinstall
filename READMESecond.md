@@ -1,3 +1,6 @@
+[1.インストール](https://github.com/HasegawaTetsuo/TeXinstall/blob/master/README.md)
+2.ここ
+[3.グラフ](https://github.com/HasegawaTetsuo/TeXinstall/blob/master/READMETrird.md)
 # 書き方
 中身の書き方を書きなぐっていきたいと思う  
 
@@ -62,3 +65,5 @@ http://shirts-custom.com/hamburg-shisyou-neta-1922
 \end{document}
 ```
 このようにしてから***test.tex***を実行してみてほしい
+
+[次へ](https://github.com/HasegawaTetsuo/TeXinstall/blob/master/READMETrird.md)  
