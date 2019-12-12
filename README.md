@@ -29,7 +29,7 @@ http://acetaminophen.hatenablog.com/entry/2015/05/16/142557
 ## 手順 mac版
 引用元:https://texwiki.texjp.org/?MacTeX  
 ***MacTeX.pkg でインストール***  
-http://ftp.jaist.ac.jp/pub/CTAN/systems/mac/mactex/
+http://ftp.jaist.ac.jp/pub/CTAN/systems/mac/mactex/  
 Google Chrome, Mozilla Firefox で MacTeX をダウンロードしてインストールできない場合は Safari でダウンロードしてください。
  
 - 1 MacTeX のホームページまたはミラーサイトから MacTeX.pkg をダウンロードします。  
