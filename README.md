@@ -1,9 +1,9 @@
 # TeXのインストールについて
 卒論で使うであろうTeXのインストールなどの説明を書いていきます。  
-~~Macは頑張れ~~  
+~~Macは頑張れ~~頑張った  
 まずTeXはプログラミング言語の一種と考えてもらったほうがいいと思います  
 だから環境構築が必要ナンデス  
-## 手順
+## 手順 windows版
 - 1．installer  
 これ↓有志の方が作ってくださっているらしいです  
 https://www.ms.u-tokyo.ac.jp/~abenori/soft/bin/abtexinst_0_91.zip  
@@ -25,6 +25,27 @@ http://acetaminophen.hatenablog.com/entry/2015/05/16/142557
 起動するとメモ帳みたいなものが立ち上がると思います  
 そこにこのリポジトリの中にあるtest.texの中身をコピペ  
 もしくは、ファイルをDLして開いて、左上の実行ボタンで実行できれば概ね構築はokです  
+
+## 手順 mac版
+引用元:https://texwiki.texjp.org/?MacTeX  
+***MacTeX.pkg でインストール***  
+・ftp://ftp.tug.org/tex/mactex/  
+・ftp://tug.org/historic/systems/mactex/  
+MacTeX はサイズが大きいので，ダウンロードする際は上の TUG のサイトからではなくミラーサイトを利用してください。　　
+TUG から直接ダウンロードするよりもミラーサイトを利用したほうが早くダウンロードできます。　　
+Google Chrome, Mozilla Firefox で MacTeX をダウンロードしてインストールできない場合は Safari でダウンロードしてください。
+
+MacTeX のインストールの概略は以下のとおりです。  
+
+- 1 MacTeX のホームページまたはミラーサイトから MacTeX.pkg をダウンロードします。  
+- 2 ダウンロードした MacTeX.pkg をダブルクリックしてインストールします。  
+- 3 TeX Live Utility を用いて最新版までアップデートします。  
+・ターミナル上で sudo tlmgr update --self --all を実行してアップデートすることもできます。  
+- 4 TeX Live Utility を用いてデフォルトの用紙サイズを A4 に変更します。  
+・ターミナル上で sudo tlmgr paper a4 を実行してデフォルトの用紙サイズを A4 に変更することもできます。  
+- 5 必要に応じて，付属ソフトの設定やアップデートを行います。  
+・LyX, TeXstudio, Texmaker, TeXworks, TeXShop, TeXnicle などのソフトを用いる場合は，それぞれのソフトに対し適切な設定が必要です。  
+
 ## 書き方
 参考に私のサンプルのコードを貼っておきます  
 
