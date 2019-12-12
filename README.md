@@ -31,12 +31,8 @@ http://acetaminophen.hatenablog.com/entry/2015/05/16/142557
 ***MacTeX.pkg でインストール***  
 ・ftp://ftp.tug.org/tex/mactex/  
 ・ftp://tug.org/historic/systems/mactex/  
-MacTeX はサイズが大きいので，ダウンロードする際は上の TUG のサイトからではなくミラーサイトを利用してください。　　
-TUG から直接ダウンロードするよりもミラーサイトを利用したほうが早くダウンロードできます。　　
 Google Chrome, Mozilla Firefox で MacTeX をダウンロードしてインストールできない場合は Safari でダウンロードしてください。
-
-MacTeX のインストールの概略は以下のとおりです。  
-
+ 
 - 1 MacTeX のホームページまたはミラーサイトから MacTeX.pkg をダウンロードします。  
 - 2 ダウンロードした MacTeX.pkg をダブルクリックしてインストールします。  
 - 3 TeX Live Utility を用いて最新版までアップデートします。  
@@ -94,7 +90,7 @@ MacTeX のインストールの概略は以下のとおりです。
 >ggggg 永谷園 手馳尾}  
 >\date{\today}  
 
-todayで勝手に印刷のひづけになってくれる  
+todayで勝手に印刷の日付になってくれる  
 
 >\maketitle  
 >\pagenumbering{roman}  
