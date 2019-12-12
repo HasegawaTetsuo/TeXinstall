@@ -113,4 +113,6 @@ todayで勝手に印刷の日付になってくれる
 
 ## アドヴァイス
 書き始めはエラーが頻出すると思いますが前年度書いてきた先輩方がいるので頼りましょう  
-わからなかったら聞いてください
+わからなかったら聞いてください  
+
+[次へ](https://github.com/HasegawaTetsuo/TeXinstall/blob/master/READMESecond.md)
