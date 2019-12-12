@@ -1,3 +1,6 @@
+[1.インストール](https://github.com/HasegawaTetsuo/TeXinstall/blob/master/README.md)
+[2.基本](https://github.com/HasegawaTetsuo/TeXinstall/blob/master/READMESecond.md)
+
 ## グラフの置き方
 TeXで
 ```TeX
